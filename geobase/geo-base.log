@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.3.28)  29 DEC 2024 23:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.3.28)  29 DEC 2024 23:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -696,42 +696,42 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 \@quotelevel=\count415
 \@quotereset=\count416
 LaTeX Font Info:    Trying to load font information for T1+Raleway-TLF on input
- line 68.
+ line 67.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/raleway/T1Raleway-TLF.fd
 File: T1Raleway-TLF.fd 2014/07/28 (autoinst) Font definitions for T1/Raleway-TL
 F.
 )
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 68.
+(Font)              scaled to size 12.0pt on input line 67.
 
 (./geo-base.aux)
 \openout1 = `geo-base.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 68.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 67.
 LaTeX Font Info:    Trying to load font information for LY1+ptm on input line 6
-8.
+7.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/ly1/ly1ptm.fd
 File: ly1ptm.fd 2001/02/01 font definitions for LY1/ptm using Berry names.
 )
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -816,25 +816,25 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'geo-base.bbl' not found.
 
 No file geo-base.bbl.
-Package biblatex Info: Reference section=0 on input line 68.
-Package biblatex Info: Reference segment=0 on input line 68.
-Package hyperref Info: Link coloring OFF on input line 68.
+Package biblatex Info: Reference section=0 on input line 67.
+Package biblatex Info: Reference segment=0 on input line 67.
+Package hyperref Info: Link coloring OFF on input line 67.
 (./geo-base.out) (./geo-base.out)
 \@outlinefile=\write5
 \openout5 = `geo-base.out'.
 
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 20.74pt on input line 73.
+(Font)              scaled to size 20.74pt on input line 72.
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
-(Font)              scaled to size 20.74pt on input line 73.
+(Font)              scaled to size 20.74pt on input line 72.
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 76.
+(Font)              scaled to size 12.0pt on input line 75.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 103.
+(Font)              <12> on input line 102.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 103.
+(Font)              <8> on input line 102.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 103.
+(Font)              <6> on input line 102.
 Package epstopdf Info: Source file: </Users/wombat/nextcloud/ba-geometry/logos/
 phhd.eps>
 (epstopdf)                    date: 2024-12-29 23:40:30
@@ -846,7 +846,7 @@ phhd-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=/Users/wombat/nextcloud/ba
 -geometry/logos/phhd-eps-converted-to.pdf /Users/wombat/nextcloud/ba-geometry/l
 ogos/phhd.eps>
-(epstopdf)             \includegraphics on input line 105.
+(epstopdf)             \includegraphics on input line 104.
 Package epstopdf Info: Output file is already uptodate.
 </Users/wombat/nextcloud/ba-geometry/logos/phhd-eps-converted-to.pdf, id=4, 243
 .91125pt x 103.38625pt>
@@ -854,7 +854,7 @@ File: /Users/wombat/nextcloud/ba-geometry/logos/phhd-eps-converted-to.pdf Graph
 ic file (type pdf)
 <use /Users/wombat/nextcloud/ba-geometry/logos/phhd-eps-converted-to.pdf>
 Package pdftex.def Info: /Users/wombat/nextcloud/ba-geometry/logos/phhd-eps-con
-verted-to.pdf  used on input line 105.
+verted-to.pdf  used on input line 104.
 (pdftex.def)             Requested size: 100.68906pt x 42.67912pt.
  [1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/
 local/texlive/2024/texmf-dist/fonts/enc/dvips/raleway/a_bzmckq.enc}
@@ -871,31 +871,31 @@ phhd-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=/Users/wombat/nextcloud/ba
 -geometry/logos/phhd-eps-converted-to.pdf /Users/wombat/nextcloud/ba-geometry/l
 ogos/phhd.eps>
-(epstopdf)             \includegraphics on input line 135.
+(epstopdf)             \includegraphics on input line 134.
 Package epstopdf Info: Output file is already uptodate.
 File: /Users/wombat/nextcloud/ba-geometry/logos/phhd-eps-converted-to.pdf Graph
 ic file (type pdf)
 <use /Users/wombat/nextcloud/ba-geometry/logos/phhd-eps-converted-to.pdf>
 Package pdftex.def Info: /Users/wombat/nextcloud/ba-geometry/logos/phhd-eps-con
-verted-to.pdf  used on input line 135.
+verted-to.pdf  used on input line 134.
 (pdftex.def)             Requested size: 100.68906pt x 42.67912pt.
  [2]
-</Users/wombat/nextcloud/ba-geometry/logos/cc-by-sa.png, id=49, 97.0827pt x 33.
-9669pt>
-File: /Users/wombat/nextcloud/ba-geometry/logos/cc-by-sa.png Graphic file (type
- png)
-<use /Users/wombat/nextcloud/ba-geometry/logos/cc-by-sa.png>
-Package pdftex.def Info: /Users/wombat/nextcloud/ba-geometry/logos/cc-by-sa.png
-  used on input line 156.
-(pdftex.def)             Requested size: 81.32224pt x 28.45274pt.
+</Users/wombat/nextcloud/ba-geometry/logos/cc-zero.png, id=49, 66.30275pt x 23.
+42697pt>
+File: /Users/wombat/nextcloud/ba-geometry/logos/cc-zero.png Graphic file (type 
+png)
+<use /Users/wombat/nextcloud/ba-geometry/logos/cc-zero.png>
+Package pdftex.def Info: /Users/wombat/nextcloud/ba-geometry/logos/cc-zero.png 
+ used on input line 155.
+(pdftex.def)             Requested size: 80.53004pt x 28.45274pt.
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 6.0pt on input line 158.
+(Font)              scaled to size 6.0pt on input line 157.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 159.
+(Font)              <5> on input line 158.
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 5.0pt on input line 159.
+(Font)              scaled to size 5.0pt on input line 158.
 
-Underfull \hbox (badness 10000) in paragraph at lines 161--176
+Underfull \hbox (badness 10000) in paragraph at lines 160--175
 
  []
 
@@ -910,37 +910,28 @@ phhd-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=/Users/wombat/nextcloud/ba
 -geometry/logos/phhd-eps-converted-to.pdf /Users/wombat/nextcloud/ba-geometry/l
 ogos/phhd.eps>
-(epstopdf)             \includegraphics on input line 179.
+(epstopdf)             \includegraphics on input line 177.
 Package epstopdf Info: Output file is already uptodate.
 File: /Users/wombat/nextcloud/ba-geometry/logos/phhd-eps-converted-to.pdf Graph
 ic file (type pdf)
 <use /Users/wombat/nextcloud/ba-geometry/logos/phhd-eps-converted-to.pdf>
 Package pdftex.def Info: /Users/wombat/nextcloud/ba-geometry/logos/phhd-eps-con
-verted-to.pdf  used on input line 179.
+verted-to.pdf  used on input line 177.
 (pdftex.def)             Requested size: 100.68906pt x 42.67912pt.
-[3 </Users/wombat/nextcloud/ba-geometry/logos/cc-by-sa.png>] (./geo-base.aux)
+[3 </Users/wombat/nextcloud/ba-geometry/logos/cc-zero.png>] (./geo-base.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `geo-base.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                geo-base
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'geo-base.run.xml'.
 \openout1 = `geo-base.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
  18031 strings out of 474116
- 318291 string characters out of 5743682
+ 318282 string characters out of 5743682
  1941187 words of memory out of 5000000
  40140 multiletter control sequences out of 15000+600000
  642834 words of font info for 57 fonts, out of 8000000 for 9000
@@ -953,7 +944,7 @@ d.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/impallari/raleway/Raleway
 cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 sy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cms
 y8.pfb>
-Output written on geo-base.pdf (3 pages, 127012 bytes).
+Output written on geo-base.pdf (3 pages, 121412 bytes).
 PDF statistics:
  115 PDF objects out of 1000 (max. 8388607)
  93 compressed objects within 1 object stream
