@@ -1,0 +1,175 @@
+\documentclass[12pt,a4paper,oneside,ngerman]{article}
+%\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[default]{raleway}
+\usepackage[a4paper, left=25mm, right=25mm, top=30mm, bottom=25mm, headheight=30mm]{geometry}
+%\usepackage{csquotes}
+\usepackage{ngerman}
+\usepackage{textcomp}
+\usepackage{comment}
+\usepackage{enumerate}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{epstopdf}
+\usepackage{titling}
+\usepackage[backend=biber,style=apa]{biblatex}
+\DeclareFieldFormat{apacase}{#1}
+\DeclareLanguageMapping{ngerman}{ngerman-apa}
+\usepackage[singlespacing]{setspace}
+\usepackage[plainpages=false,pdfborder={0 0 0}]{hyperref}
+\newcommand{\inlinequote}[2]{\glqq{}#1\grqq{} #2}
+
+%--------------------------------------------------------------------------------------------------------------
+% pagestyles
+%--------------------------------------------------------------------------------------------------------------
+
+\fancyhf{}
+\fancyhead[L]{Pädagogische Hochschule Heidelberg\\Prof. Dr. Christian Spannagel\\spannagel@ph-heidelberg.de}
+\fancyhead[R]{\includegraphics[height=15mm]{/Users/wombat/nextcloud/img/phhd.eps}}
+\fancyfoot[C]{Seite \thepage}
+\fancypagestyle{docstyle}{%
+   \fancyhf{}
+   \renewcommand{\headrulewidth}{0pt}
+   \fancyfoot[C]{Seite \thepage}
+}
+
+\setlength{\parskip}{1 em} % fügt Leerzeile zwischen Absätzen ein
+\setlength{\parindent}{0 em}
+
+
+%--------------------------------------------------------------------------------------------------------------
+% Basic meta data
+%--------------------------------------------------------------------------------------------------------------
+
+\title{Geo-Base}
+\author{Prof. Dr. Christian Spannagel}
+\date{\today}
+\hypersetup{%
+    pdfauthor={\theauthor},%
+    pdftitle={\thetitle},%
+    pdfsubject={Geo-Base},%
+    pdfkeywords={geomerie}
+}
+
+%\bibliography{/Users/wombat/data/latex/literatur.bib}
+%\bibliographystyle{plain}
+%\defbibheading{references}[\refname]{\subsection{#1}
+%   \markboth{#1}{#1}}
+
+
+%--------------------------------------------------------------------------------------------------------------
+% document
+%--------------------------------------------------------------------------------------------------------------
+
+\begin{document}
+\pagenumbering{arabic}
+\pagestyle{fancy}
+\begin{center}
+\vspace*{5mm}
+{\LARGE\textbf{Geometrie-Basis von Euklid}}
+\end{center}
+
+\textbf{Definitionen von Euklid} 
+\begin{enumerate}
+\item Was keine Teile hat, ist ein Punkt.
+\item Eine Länge ohne Breite ist eine Linie.
+\item Die Enden einer Linie sind Punkte.
+\item Eine Linie ist gerade, wenn sie gegen die in ihr befindlichen Punkte auf einerlei Art gelegen ist.
+\item Was nur Länge und Breite hat, ist eine Fläche.
+\end{enumerate}
+
+\textbf{Axiome von Euklid} 
+\begin{enumerate}
+\item Dinge, die demselben Dinge gleich sind, sind einander gleich.
+\item Fügt man zu Gleichem Gleiches hinzu, so sind die Summen gleich.
+\item Nimmt man von Gleichem Gleiches hinweg, so sind die Reste gleich.
+\item Was zur Deckung miteinander gebracht werden kann, ist einander gleich.
+\item Das Ganze ist größer als sein Teil.
+\end{enumerate}
+
+\textbf{Postulate von Euklid} 
+\begin{enumerate}
+\item Es soll gefordert werden, daß sich von jedem Punkte nach jedem Punkte eine gerade Linie ziehen lasse.
+\item Ferner, daß sich eine begrenzte Gerade stetig in gerader Linie verlängern lasse.
+\item Ferner, daß sich mit jedem Mittelpunkt und Halbmesser ein Kreis beschreiben lasse.
+\item Ferner, daß alle rechten Winkel einander gleich seien.
+\item Endlich, wenn eine Gerade zwei Geraden trifft und mit ihnen auf derselben Seite innere Winkel bildet, die zusammen kleiner sind als zwei Rechte, so sollen die beiden Geraden, ins Unendliche verlängert, schließlich auf der Seite zusammentreffen, auf der die Winkel liegen, die zusammen kleiner sind als zwei Rechte.
+\end{enumerate}
+
+Das letzte Postulat kann man auch anders formulieren; dann nennt man es Parallelenaxiom: In einer Ebene gibt es zu einer Geraden $g$ und einem Punkt $P$ außerhalb von $g$ genau eine Gerade, die zu $g$ parallel ist und durch den Punkt $P$ geht.
+
+\newpage
+\begin{center}
+{\LARGE\textbf{Unsere Geo-Base}}
+\end{center}
+
+\textbf{Die Grundbegriffe}
+\begin{enumerate}
+\item Ausgangspunkt ist eine nichtleere Menge $\epsilon$, die Ebene genannt wird.
+\item Die Elemente der Ebene nennen wir Punkte. Wir bezeichnen sie mit Großbuchstaben $A$, $B$, $C$, \ldots
+\item Es gibt eine weitere nichtleere Menge $G$, deren Elemente Geraden genannt werden. Diese werden mit Kleinbuchstaben bezeichnet: $g$, $h$, $i$, \ldots
+\end{enumerate}
+
+\textbf{Die Inzidenzaxiome}
+\begin{enumerate}
+\item Axiom I/0: Geraden sind Punktmengen.
+\item Axiom I/1: Zu zwei beliebigen verschiedenen Punkten gibt es genau eine Gerade, die die beiden Punkte enthält.
+\item Axiom I/2: Zu jeder Geraden gibt es wenigstens zwei Punkte, die dieser Geraden angehören.
+\item Definition kollinear: Eine Menge von Punkten heißt kollinear, wenn es eine Gerade gibt, die alle Punkte der Menge enthält.
+\item Axiom I/3: Es gibt wenigstens 3 Punkte, die nicht kollinear sind.
+\end{enumerate}
+
+\textbf{Abstandsaxiome}
+\begin{enumerate}
+\item Axiom A/1: Zu je zwei Punkten $A$ und $B$ gibt es eine eindeutig bestimmte nicht negative reelle Zahl $d$ mit $d=0 \Leftrightarrow A=B$. 
+\item Definition Abstand: Die Zahl $d$ heißt Abstand von $A$ und $B$. Schreibweise: $d=|AB|$
+\item Axiom A/2: Für zwei beliebige Punkte $A$ und $B$ gilt  $\vert AB\vert = \vert BA\vert$.
+\item Axiom A/3 (Dreiecksungleichung): Für drei beliebige Punkte $A$, $B$ und $C$ gilt: $\vert AB\vert   + \vert BC \vert \geq \vert AC \vert$.
+\end{enumerate}
+
+Wir setzen außerdem intuitive Definitionen der Begriffe Strecke, Halbgerade und Winkel voraus.
+\newpage
+
+\textbf{Winkelzeugs}
+\begin{enumerate}
+\item Axiom W/1: Nebenwinkel ergänzen sich zu $180^\circ$.
+\item Satz W/2: Stufenwinkel sind gleich groß. (Das kann man beweisen, machen wir aber nicht, sondern nehmen es an.)
+\end{enumerate}
+
+\textbf{Kongruenzsätze am Dreieck}
+
+Die Kongruenzsätze kann man auch beweisen; das machen wir im Master, hier setzen wir sie als gegeben voraus.
+\begin{enumerate}
+\item SSS: Zwei Dreiecke sind kongruent, wenn sie in der Länge aller drei Seiten übereinstimmen. 
+\item SWS: Zwei Dreiecke sind kongruent, wenn sie in der Länge zweier Seiten und in der Größe des von den beiden Seiten eingeschlossenen Winkels übereinstimmen. 
+\item WSW: Zwei Dreiecke, die in einer Seitenlänge und in den dieser Seite anliegenden Winkeln übereinstimmen, sind kongruent.
+\item SsW: Zwei Dreiecke sind kongruent, wenn sie in der Länge zweier Seiten und in der Größe des Winkels, der der längeren Seite gegenüberliegt, übereinstimmen. 
+\end{enumerate}
+
+
+%\newpage
+\vspace*{10mm}
+\includegraphics[height=10mm]{/Users/wombat/nextcloud/img/licenses/cc-by-sa.png}
+
+\tiny{This document is subject to the Creative Commons Attribution Share-Alike 4.0 International (CC BY-SA 4.0) License.
+\\ To create this document, I used \LaTeX{}.
+
+Christians Social Media Kanäle:\\
+Bluesky: \url{https://bsky.app/profile/cspannagel.bsky.social}\\
+Discord: \url{https://discord.com/invite/WYgECstu7T}\\
+Facebook: \url{https://www.facebook.com/chr.spannagel}\\
+Instagram: \url{https://www.instagram.com/dunkelmunkel/}\\
+LinkedIn: \url{https://www.linkedin.com/in/christian-spannagel-31b7b4a1/}\\
+Mastodon: \url{https://scholar.social/@cspannagel}\\
+Snapchat: \url{https://www.snapchat.com/add/spannagelc}\\
+Telegram: \url{https://t.me/cspannagel}\\
+Tellonym: \url{https://tellonym.me/christian.spannagel}\\
+TikTok: \url{https://www.tiktok.com/@_cspannagel_}\\
+Threads: \url{https://www.threads.net/@dunkelmunkel}\\
+Twitch: \url{https://www.twitch.tv/cspannagel}\\
+X/Twitter: \url{https://twitter.com/dunkelmunkel}\\
+Youtube: \url{https://www.youtube.com/pharithmetik}}\\
+
+
+%\pagestyle{docstyle}
+\end{document}
