@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.3.28)  29 DEC 2024 23:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.3.28)  30 DEC 2024 10:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -895,7 +895,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
 (Font)              scaled to size 5.0pt on input line 158.
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--175
+Underfull \hbox (badness 10000) in paragraph at lines 160--176
 
  []
 
@@ -910,13 +910,13 @@ phhd-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=/Users/wombat/nextcloud/ba
 -geometry/logos/phhd-eps-converted-to.pdf /Users/wombat/nextcloud/ba-geometry/l
 ogos/phhd.eps>
-(epstopdf)             \includegraphics on input line 177.
+(epstopdf)             \includegraphics on input line 178.
 Package epstopdf Info: Output file is already uptodate.
 File: /Users/wombat/nextcloud/ba-geometry/logos/phhd-eps-converted-to.pdf Graph
 ic file (type pdf)
 <use /Users/wombat/nextcloud/ba-geometry/logos/phhd-eps-converted-to.pdf>
 Package pdftex.def Info: /Users/wombat/nextcloud/ba-geometry/logos/phhd-eps-con
-verted-to.pdf  used on input line 177.
+verted-to.pdf  used on input line 178.
 (pdftex.def)             Requested size: 100.68906pt x 42.67912pt.
 [3 </Users/wombat/nextcloud/ba-geometry/logos/cc-zero.png>] (./geo-base.aux)
  ***********
@@ -944,10 +944,10 @@ d.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/impallari/raleway/Raleway
 cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 sy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cms
 y8.pfb>
-Output written on geo-base.pdf (3 pages, 121412 bytes).
+Output written on geo-base.pdf (3 pages, 121450 bytes).
 PDF statistics:
- 115 PDF objects out of 1000 (max. 8388607)
- 93 compressed objects within 1 object stream
+ 116 PDF objects out of 1000 (max. 8388607)
+ 94 compressed objects within 1 object stream
  37 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
