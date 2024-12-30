@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.3.28)  30 DEC 2024 11:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.3.28)  30 DEC 2024 11:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -7,10 +7,16 @@ entering extended mode
 (./02-beweisen.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
+(../cssheet.cls
+
+LaTeX Warning: You have requested document class `../cssheet',
+               but the document class provides `cssheet'.
+
+Document Class: cssheet 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
-(/usr/local/texlive/2024/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count188
 \c@section=\count189
@@ -692,46 +698,46 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 85.
 )
 \Hy@SectionHShift=\skip84
-)
+))
 \@quotelevel=\count415
 \@quotereset=\count416
 LaTeX Font Info:    Trying to load font information for T1+Raleway-TLF on input
- line 65.
+ line 20.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/raleway/T1Raleway-TLF.fd
 File: T1Raleway-TLF.fd 2014/07/28 (autoinst) Font definitions for T1/Raleway-TL
 F.
 )
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 65.
+(Font)              scaled to size 10.0pt on input line 20.
 
 (./02-beweisen.aux)
 \openout1 = `02-beweisen.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 65.
-LaTeX Font Info:    Trying to load font information for LY1+ptm on input line 6
-5.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 20.
+LaTeX Font Info:    Trying to load font information for LY1+ptm on input line 2
+0.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/ly1/ly1ptm.fd
 File: ly1ptm.fd 2001/02/01 font definitions for LY1/ptm using Berry names.
 )
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -752,12 +758,12 @@ LaTeX Font Info:    ... okay on input line 65.
 * \topmargin=-97.26999pt
 * \headheight=85.35826pt
 * \headsep=25.0pt
-* \topskip=12.0pt
+* \topskip=10.0pt
 * \footskip=30.0pt
-* \marginparwidth=35.0pt
-* \marginparsep=10.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -816,29 +822,28 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file '02-beweisen.bbl' not found.
 
 No file 02-beweisen.bbl.
-Package biblatex Info: Reference section=0 on input line 65.
-Package biblatex Info: Reference segment=0 on input line 65.
-Package hyperref Info: Link coloring OFF on input line 65.
+Package biblatex Info: Reference section=0 on input line 20.
+Package biblatex Info: Reference segment=0 on input line 20.
+Package hyperref Info: Link coloring OFF on input line 20.
 (./02-beweisen.out) (./02-beweisen.out)
 \@outlinefile=\write5
 \openout5 = `02-beweisen.out'.
 
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 20.74pt on input line 69.
+(Font)              scaled to size 17.28pt on input line 21.
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
-(Font)              scaled to size 20.74pt on input line 69.
+(Font)              scaled to size 17.28pt on input line 21.
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 73.
+(Font)              scaled to size 10.0pt on input line 23.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 75.
+(Font)              <7> on input line 25.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 75.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 75.
+(Font)              <5> on input line 25.
 
-Overfull \hbox (1.78745pt too wide) in paragraph at lines 108--109
-[]\T1/Raleway-TLF/b/n/12 Aufgabe 7 (Win-kel-hal-bie-ren-de): \T1/Raleway-TLF/m/
-n/12 Ei-ne Win-kel-hal-bie-ren-de ei-nes Win-kels ist die Halb-
+Overfull \hbox (1.07526pt too wide) in paragraph at lines 58--59
+[]\T1/Raleway-TLF/b/n/10 Aufgabe 7 (Win-kel-hal-bie-ren-de): \T1/Raleway-TLF/m/
+n/10 Ei-ne Win-kel-hal-bie-ren-de ei-nes Win-kels ist die Halb-ge-ra-de, die du
+rch
  []
 
 Package epstopdf Info: Source file: </Users/wombat/nextcloud/ba-geometry/logos/
@@ -852,7 +857,7 @@ phhd-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=/Users/wombat/nextcloud/ba
 -geometry/logos/phhd-eps-converted-to.pdf /Users/wombat/nextcloud/ba-geometry/l
 ogos/phhd.eps>
-(epstopdf)             \includegraphics on input line 113.
+(epstopdf)             \includegraphics on input line 65.
 Package epstopdf Info: Output file is already uptodate.
 </Users/wombat/nextcloud/ba-geometry/logos/phhd-eps-converted-to.pdf, id=4, 243
 .91125pt x 103.38625pt>
@@ -860,31 +865,22 @@ File: /Users/wombat/nextcloud/ba-geometry/logos/phhd-eps-converted-to.pdf Graph
 ic file (type pdf)
 <use /Users/wombat/nextcloud/ba-geometry/logos/phhd-eps-converted-to.pdf>
 Package pdftex.def Info: /Users/wombat/nextcloud/ba-geometry/logos/phhd-eps-con
-verted-to.pdf  used on input line 113.
+verted-to.pdf  used on input line 65.
 (pdftex.def)             Requested size: 100.68906pt x 42.67912pt.
 [1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/l
 ocal/texlive/2024/texmf-dist/fonts/enc/dvips/raleway/a_bzmckq.enc}
 
  </Users/wombat/nextcloud/ba-geometry/logos/phhd-eps-converted-to.pdf>]
-</Users/wombat/nextcloud/ba-geometry/logos/cc-zero.png, id=29, 66.30275pt x 23.
+</Users/wombat/nextcloud/ba-geometry/logos/cc-zero.png, id=31, 66.30275pt x 23.
 42697pt>
 File: /Users/wombat/nextcloud/ba-geometry/logos/cc-zero.png Graphic file (type 
 png)
 <use /Users/wombat/nextcloud/ba-geometry/logos/cc-zero.png>
 Package pdftex.def Info: /Users/wombat/nextcloud/ba-geometry/logos/cc-zero.png 
- used on input line 120.
+ used on input line 67.
 (pdftex.def)             Requested size: 80.53004pt x 28.45274pt.
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 6.0pt on input line 122.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 123.
-LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 5.0pt on input line 123.
-
-Underfull \hbox (badness 10000) in paragraph at lines 125--141
-
- []
-
+(Font)              scaled to size 5.0pt on input line 67.
 Package epstopdf Info: Source file: </Users/wombat/nextcloud/ba-geometry/logos/
 phhd.eps>
 (epstopdf)                    date: 2024-12-29 23:40:30
@@ -896,15 +892,16 @@ phhd-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=/Users/wombat/nextcloud/ba
 -geometry/logos/phhd-eps-converted-to.pdf /Users/wombat/nextcloud/ba-geometry/l
 ogos/phhd.eps>
-(epstopdf)             \includegraphics on input line 144.
+(epstopdf)             \includegraphics on input line 72.
 Package epstopdf Info: Output file is already uptodate.
 File: /Users/wombat/nextcloud/ba-geometry/logos/phhd-eps-converted-to.pdf Graph
 ic file (type pdf)
 <use /Users/wombat/nextcloud/ba-geometry/logos/phhd-eps-converted-to.pdf>
 Package pdftex.def Info: /Users/wombat/nextcloud/ba-geometry/logos/phhd-eps-con
-verted-to.pdf  used on input line 144.
+verted-to.pdf  used on input line 72.
 (pdftex.def)             Requested size: 100.68906pt x 42.67912pt.
-[2 </Users/wombat/nextcloud/ba-geometry/logos/cc-zero.png>] (./02-beweisen.aux)
+ [2 </Users/wombat/nextcloud/ba-geometry/logos/cc-zero.png>] (./02-beweisen.aux
+)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -916,20 +913,20 @@ Package logreq Info: Writing requests to '02-beweisen.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 18009 strings out of 474116
- 318187 string characters out of 5743682
+ 18025 strings out of 474116
+ 318597 string characters out of 5743682
  1942187 words of memory out of 5000000
- 40139 multiletter control sequences out of 15000+600000
- 642834 words of font info for 57 fonts, out of 8000000 for 9000
+ 40160 multiletter control sequences out of 15000+600000
+ 626485 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,15n,101p,684b,5182s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 81i,15n,101p,684b,5182s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/impallari/raleway/Raleway-Bol
 d.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/impallari/raleway/Raleway
 -Regular.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmmi12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-sy8.pfb>
-Output written on 02-beweisen.pdf (2 pages, 107895 bytes).
+/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy7.pfb>
+Output written on 02-beweisen.pdf (2 pages, 107641 bytes).
 PDF statistics:
  81 PDF objects out of 1000 (max. 8388607)
  62 compressed objects within 1 object stream
