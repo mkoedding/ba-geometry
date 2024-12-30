@@ -1,0 +1,144 @@
+\documentclass[12pt,a4paper,oneside,ngerman]{article}
+%\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[default]{raleway}
+\usepackage[a4paper, left=25mm, right=25mm, top=30mm, bottom=25mm, headheight=30mm]{geometry}
+%\usepackage{csquotes}
+\usepackage{ngerman}
+\usepackage{textcomp}
+\usepackage{comment}
+\usepackage{enumerate}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{epstopdf}
+\usepackage{titling}
+\usepackage[backend=biber,style=apa]{biblatex}
+\DeclareFieldFormat{apacase}{#1}
+\DeclareLanguageMapping{ngerman}{ngerman-apa}
+\usepackage[singlespacing]{setspace}
+\usepackage[plainpages=false,pdfborder={0 0 0}]{hyperref}
+\newcommand{\inlinequote}[2]{\glqq{}#1\grqq{} #2}
+\graphicspath{{/Users/wombat/nextcloud/ba-geometry/logos/}}
+
+%--------------------------------------------------------------------------------------------------------------
+% pagestyles
+%--------------------------------------------------------------------------------------------------------------
+
+\fancyhf{}
+\fancyhead[L]{Pädagogische Hochschule Heidelberg\\Prof. Dr. Christian Spannagel\\spannagel@ph-heidelberg.de}
+\fancyhead[R]{\includegraphics[height=15mm]{phhd.eps}}
+\fancyfoot[C]{Seite \thepage}
+\fancypagestyle{docstyle}{%
+   \fancyhf{}
+   \renewcommand{\headrulewidth}{0pt}
+   \fancyfoot[C]{Seite \thepage}
+}
+
+\setlength{\parskip}{1 em} % fügt Leerzeile zwischen Absätzen ein
+\setlength{\parindent}{0 em}
+
+
+%--------------------------------------------------------------------------------------------------------------
+% Basic meta data
+%--------------------------------------------------------------------------------------------------------------
+
+\title{Beweisen}
+\author{Prof. Dr. Christian Spannagel}
+\date{\today}
+\hypersetup{%
+    pdfauthor={\theauthor},%
+    pdftitle={\thetitle},%
+    pdfsubject={Aufgabenblatt Geometrie},%
+    pdfkeywords={geomerie}
+}
+
+%\bibliography{/Users/wombat/data/latex/literatur.bib}
+%\bibliographystyle{plain}
+%\defbibheading{references}[\refname]{\subsection{#1}
+%   \markboth{#1}{#1}}
+
+
+%--------------------------------------------------------------------------------------------------------------
+% document
+%--------------------------------------------------------------------------------------------------------------
+
+\begin{document}
+\pagenumbering{arabic}
+\pagestyle{fancy}
+\begin{center}
+{\LARGE\textbf{\thetitle}}
+\end{center}
+
+
+\textbf{Aufgabe 1 (Geraden):}  Beweist die folgenden Aussagen aus den Inzidenzaxiomen:
+\begin{enumerate}[a)]
+\item Es seien $g$ und $h$ zwei Geraden. Wenn $g$ und $h$ nicht identisch sind, haben sie höchstens einen Punkt gemeinsam.
+\item Es seien $g$ und $h$ zwei Geraden. Wenn $g$ und $h$ mehr als einen Punkt gemeinsam haben, so sind sie dentisch.
+\item Es existieren mindestens drei paarweise verschiedene Geraden.
+\end{enumerate}
+
+\textbf{Aufgabe 2 (Winkelzeugs):}  Beweist die folgenden Aussagen:
+\begin{enumerate}[a)]
+\item Scheitelwinkel sind gleich groß.
+\item Wechselwinkel sind gleich groß.
+\end{enumerate}
+
+
+\textbf{Aufgabe 3 (Innenwinkelsumme Dreieck):}  Beweist: Die Innenwinkelsumme eines Dreiecks beträgt $180^\circ$.
+
+\textbf{Aufgabe 4 (Mittelsenkrechte):} Eine Mittelsenkrechte einer Strecke $\overline{AB}$ ist die Gerade, die durch den Mittelpunkt von $\overline{AB}$ geht und senkrecht auf $\overline{AB}$ steht.
+\begin{enumerate}[a)]
+\item Beweist: Jeder Punkt $P$ auf der Mittelsenkrechten einer Strecke $\overline{AB}$ hat denselben Abstand von $A$ und $B$.
+\item Formuliert die Umkehrung des Satzes aus a) und beweist sie.
+\end{enumerate}
+
+\textbf{Aufgabe 5 (Basiswinkel):} 
+\begin{enumerate}[a)]
+\item Beweist: In einem gleichschenkligen Dreieck sind die Basiswinkel gleich groß.
+\item Formuliert die Umkehrung des Satzes aus a) und beweist sie.
+\end{enumerate}
+
+\textbf{Aufgabe 6 (Seiten und Winkel im Dreieck):} 
+In dieser Aufgabe sollt ihr die Beziehungen zwischen Seitenlängen und Innenwinkelgrößen von Dreiecken untersuchen.
+\begin{enumerate}[a)]
+\item Beweist: Der größeren Seite liegt der größere Winkel gegenüber.
+\item Beweist: Dem größeren Winkel liegt die größere Seite gegenüber.
+\end{enumerate}
+
+\textbf{Aufgabe 7 (Winkelhalbierende):} Eine Winkelhalbierende eines Winkels ist die Halbgerade, die durch den Scheitelpunkt des Winkels läuft und das Winkelfeld in zwei deckungsgleiche Teile teilt.
+
+\begin{enumerate}[a)]
+\item Beweist: Wenn ein Punkt $P$ auf der Winkelhalbierenden zweier Geraden $g$ und $h$ liegt, dann sind die Abstände von $g$ zu $P$ und von $h$ zu $P$ gleich.
+\item Formuliert die Umkehrung des Satzes aus a) und beweist sie.
+\end{enumerate}
+
+
+
+
+%\newpage
+\vspace*{10mm}
+\includegraphics[height=10mm]{cc-zero.png}
+
+\tiny{This document is subject to the Creative Commons Zero (CC0) License.
+\\ To create this document, we used \LaTeX{}.
+
+Christians Social Media Kanäle:\\
+BeReal: \url{https://bere.al/cspannagel}\\
+Bluesky: \url{https://bsky.app/profile/cspannagel.bsky.social}\\
+Discord: \url{https://tinyurl.com/chrisp-discord}\\
+Facebook: \url{https://www.facebook.com/chr.spannagel}\\
+Instagram: \url{https://www.instagram.com/dunkelmunkel/}\\
+LinkedIn: \url{https://www.linkedin.com/in/christian-spannagel-31b7b4a1/}\\
+Mastodon: \url{https://scholar.social/@cspannagel}\\
+Snapchat: \url{https://www.snapchat.com/add/spannagelc}\\
+Telegram: \url{https://t.me/cspannagel}\\
+Tellonym: \url{https://tellonym.me/christian.spannagel}\\
+TikTok: \url{https://www.tiktok.com/@_cspannagel_}\\
+Threads: \url{https://www.threads.net/@dunkelmunkel}\\
+Twitch: \url{https://www.twitch.tv/cspannagel}\\
+X/Twitter: \url{https://twitter.com/dunkelmunkel}\\
+Youtube: \url{https://www.youtube.com/pharithmetik}}\\
+
+
+%\pagestyle{docstyle}
+\end{document}
